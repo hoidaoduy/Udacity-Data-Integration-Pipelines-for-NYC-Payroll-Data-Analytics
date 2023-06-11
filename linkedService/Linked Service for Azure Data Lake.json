@@ -1,0 +1,12 @@
+{
+	"name": "Linked Service for Azure Data Lake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=hoidd1nycpayrolladls;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEJEMEU5M0VFLTFBRDUtNENCQy1BRUI1LTRBMkYzNjA2MDc0RF8zNTg2MzVkMC02YTU3LTQyOTItOTY1Mi1mNjI2YTNkOTJhMGIiDQp9"
+		}
+	}
+}

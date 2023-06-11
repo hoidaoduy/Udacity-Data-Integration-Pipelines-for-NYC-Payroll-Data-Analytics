@@ -1,0 +1,12 @@
+{
+	"name": "Linked Service for Synapse Analytics",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDW",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=nycpayrollsynapsehoidd1-ondemand.sql.azuresynapse.net;initial catalog=Nycpayroll_DW;user id=sqladminuser",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEJEMEU5M0VFLTFBRDUtNENCQy1BRUI1LTRBMkYzNjA2MDc0RF83N2NhNjZiZi0xN2Y0LTRkYjYtOWVmZC02ZWFlODA4NGY3ZDIiDQp9"
+		}
+	}
+}

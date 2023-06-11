@@ -1,0 +1,33 @@
+{
+	"name": "Ds_TitleMaster_file_on_Azure_Data_Lake_Gen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Linked Service for Azure Data Lake Gen 2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "dirpayrollfiles/LND_TitleMaster",
+				"fileSystem": "adlsnycpayrollhoidd1lastintial"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "TitleCode",
+				"type": "String"
+			},
+			{
+				"name": "TitleDescription",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
