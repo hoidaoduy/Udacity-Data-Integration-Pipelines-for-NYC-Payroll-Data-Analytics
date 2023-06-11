@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "nycpayrollADFHoiDD1"
+		},
+		"Linked Service for Azure Data Lake Gen 2_accountKey": {
+			"value": ""
+		},
+		"Linked Service for Azure Data Lake_connectionString": {
+			"value": ""
+		},
+		"Linked Service for Synapse Analytics_connectionString": {
+			"value": ""
+		},
+		"Linked Service to SQL Database_connectionString": {
+			"value": ""
+		},
+		"Linked service Data Lake gen2_accountKey": {
+			"value": ""
+		},
+		"Linked service Synapse serverless storage_accountKey": {
+			"value": ""
+		},
+		"Linked Service for Azure Data Lake Gen 2_properties_typeProperties_url": {
+			"value": "https://hoidd1nycpayrolladls.dfs.core.windows.net/"
+		},
+		"Linked service Data Lake gen2_properties_typeProperties_url": {
+			"value": "https://hoidd1nycpayrolladls.dfs.core.windows.net/"
+		},
+		"Linked service Synapse serverless storage_properties_typeProperties_url": {
+			"value": "https://nycpayrolldw.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
