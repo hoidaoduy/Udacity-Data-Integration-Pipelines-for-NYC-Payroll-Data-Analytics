@@ -1,0 +1,25 @@
+{
+	"name": "Ds_NYC_Payroll_TITLE_MD_table_Synapse",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Linked Service for Synapse Analytics",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "TitleCode",
+				"type": "varchar"
+			},
+			{
+				"name": "TitleDescription",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DW_NYC_Payroll_TITLE"
+		}
+	}
+}

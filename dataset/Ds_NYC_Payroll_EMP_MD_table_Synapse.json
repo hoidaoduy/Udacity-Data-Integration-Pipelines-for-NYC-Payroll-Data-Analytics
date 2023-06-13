@@ -1,0 +1,29 @@
+{
+	"name": "Ds_NYC_Payroll_EMP_MD_table_Synapse",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Linked Service for Synapse Analytics",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "EmployeeID",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DW_NYCPayroll_EMP"
+		}
+	}
+}
